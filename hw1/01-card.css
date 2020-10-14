@@ -1,9 +1,44 @@
-body {
+.heading {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
   color: #555;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  padding: 10px 10px 20px 2px;
+  border: 1px solid gray;
+}
+
+.item {
+  display: inline;
+  padding: 15px;
+  border: 1px solid gray;
+  margin: 2px;
+}
+
+img.catpic {
+  height: auto;
+  width: 100%;
+}
+
 a {
   color: rgb(0, 96, 96);
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+
+h3 {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  color: rgb(65, 65, 65);
 }
