@@ -2,6 +2,38 @@
   font-family: sans-serif;
   font-size: 1.1em;
   color: #333;
+  text-decoration: none;
 }
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: inline;
+  padding: 30px 30px 30px 30px;
+}
+
+.item:focus {
+  color: #008080;
+  text-decoration: underline;
+}
+
+.item:active {
+  color: #008080;
+  text-decoration: underline;
+}
+
+.item:hover {
+  color: red; /*note: no color was specified for hover so I chose red*/
+}
+
+
 
 /* The accent color used is #008080 */
