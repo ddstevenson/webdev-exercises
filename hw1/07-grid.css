@@ -4,12 +4,32 @@
   font-size: 1.3em;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
 .grid-item {
   margin: 1px;
   padding: 10px;
   background-color: purple;
   color: white;
   text-align: center;
+}
+
+.item5 {
+  order: -1;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.item7 {
+  grid-column: span 3;
+}
+
+.item9 {
+  grid-column: span 2;
 }
 
 /* Add your code here */
