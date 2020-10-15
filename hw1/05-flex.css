@@ -4,6 +4,14 @@
   font-size: 1.3em;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
+  height: 300px;
+  align-content: space-between;
+}
+
 .flex-item {
   width: 160px;
   height: 80px;
@@ -12,6 +20,10 @@
   background-color: purple;
   color: white;
   text-align: center;
+}
+
+.item1 {
+  order: 1;
 }
 
 /* Add your code here */
