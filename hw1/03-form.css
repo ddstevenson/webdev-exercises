@@ -4,6 +4,69 @@ body {
   color: #ccc;
 }
 
+.container {
+  background-color: white;
+  max-width: 500px;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 10px 40px 40px 40px;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+#comments {
+  height: 150px;
+}
+
+#submit {
+  background-color: rgb(0, 78, 78);
+  color: white;
+  height: 35px;
+}
+
+#submit:hover {
+  background-color: rgb(2, 226, 226);
+  color: black;
+}
+
+.formitem {
+  width: 100%;
+}
+
+.labeltext {
+  color: rgb(41, 40, 40);
+}
+
+#newsletter {
+  margin-top: 17px;
+  margin-bottom: 20px;
+}
+
+.required {
+  color: #00a1a1;
+  padding-left: 2px;
+  margin-bottom: 0px;
+}
+
+.title {
+  color:  #00a1a1;
+  text-align: center;
+  font-weight: normal;
+}
+
+.formlabel {
+  display: flex;
+  flex-direction: row;
+}
+
+.labeltext {
+  margin-bottom: 0px;
+}
+
+
+
 /* Colors used include:
     - #aaa;
     - #006060;
