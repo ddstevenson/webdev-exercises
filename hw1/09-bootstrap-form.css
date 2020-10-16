@@ -1,0 +1,41 @@
+body {
+    background-color: #333333;
+}
+
+.header {
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px 15px 20px 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 400px)
+{
+    .container {
+        width: 95%;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .container {
+        width: 400px;
+    }
+}
+
+#message {
+    height: 85px;
+}
+
+.form-check {
+    padding-bottom: 10px;
+}
+
+.buttonclass {
+    width: 49%;
+}
