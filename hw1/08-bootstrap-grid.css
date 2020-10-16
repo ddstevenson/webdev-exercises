@@ -3,6 +3,42 @@
   font-size: 1.1em;
   color: white;
 }
+
+.containerstyle {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.col, .col-4, .col-8 {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  height: 75px;
+}
+
+.row1 {
+  background-color: navy;
+}
+
+.row2 {
+  background-color: purple;
+}
+
+.row3 {
+  background-color: mediumvioletred;
+}
+
+.row4-1 {
+  background-color: teal;
+}
+
+.row4-2 {
+  background-color: var(--red);;
+}
+
+.row5 {
+  background-color: darkgreen;
+}
+
 /* 
   Colors used in this exercise: 
   background-color: navy;
