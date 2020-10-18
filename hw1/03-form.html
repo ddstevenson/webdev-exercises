@@ -13,24 +13,32 @@
     <div class="container">
       <form>
         <h2 class="title">CONTACT FORM</h2>
-        <div class="formitem formlabel">
-          <p class="labeltext">Name </p>
-          <p class="required">(required)</p>
-        </div>
-        <input type="text" id="name" class="formitem forminput" required/>
-        <div class="formitem formlabel">
-          <p class="labeltext">Email Address </p>
-          <p class="required">(required)</p>
-        </div>
-        <input type="text" id="email" class="formitem forminput" required/>
-        <div class="formitem formlabel">
-          <p class="labeltext">Comments? </p>
-        </div>
-        <textarea id="comments" class="formitem forminput"></textarea>
-        <div class="formitem formlabel">
-          <input type="checkbox" class="forminput" id="newsletter"/>
-          <p class="labeltext" id="newsletter-label">Sign up for the newsletter</p>
-        </div>
+        <label for="name">
+          <div class="formitem formlabel">
+              <p class="labeltext">Name </p>
+              <p class="required">(required)</p>
+          </div>
+          <input type="text" id="name" class="formitem forminput" required/>
+        </label>
+          <label for="email">
+          <div class="formitem formlabel">
+              <p class="labeltext">Email Address </p>
+              <p class="required">(required)</p>
+          </div>
+          <input type="text" id="email" class="formitem forminput" required/>
+        </label>
+        <label for="comments">
+          <div class="formitem formlabel">
+            <p class="labeltext">Comments? </p>
+          </div>
+          <textarea id="comments" class="formitem forminput"></textarea>
+        </label>
+        <label for="newsletter">
+          <div class="formitem formlabel">
+            <input type="checkbox" class="forminput" id="newsletter"/>
+            <p class="labeltext" id="newsletter-label">Sign up for the newsletter</p>
+          </div>
+        </label>
         <button id="submit" class="formitem forminput">Submit</button>
       </form>
     </div>
