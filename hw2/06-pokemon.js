@@ -6,13 +6,12 @@ result.then((data) => {
     var result2 = loadResponse(url + `?limit=${data.count}`);
     result2.then((data) => {
         data.results.forEach((pokemon) => {
-            document.getElementById("results").innerHTML += `<span>${pokemon.name}</span> - `;
+            document.getElementById("results").innerHTML += `<span>${pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</span> - `;
             });
         }
         
     );
 });
-
 
 async function loadResponse(url) {
     let response = await fetch(url);
