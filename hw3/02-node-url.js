@@ -15,7 +15,6 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { "Content-Type": "text/html" });
     res.write("<html><body><table>");
     for(var x in queryData) {
-      console.log(queryData);
       res.write(`<tr><td>${x}</td><td>${queryData[x]}</td></tr>`);
     }
     res.write("</table></body></html>");

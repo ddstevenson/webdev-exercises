@@ -4,7 +4,7 @@ const port = process.env.PORT || 5000;
 
 // Add your code below
 
-app.use(/** ... */);
+app.use(express.static('files'));
 
 app.post('/', (req, res) => {
     // Add your code below
