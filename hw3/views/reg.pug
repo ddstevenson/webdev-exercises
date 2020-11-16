@@ -1,0 +1,29 @@
+doctype html
+
+- var regions = {"africa": {"name": "Africa", "countries": 0}, "americas": {"name": "Americas", "countries": 0}, "asia": {"name": "Asia", "countries": 0},"europe": {"name": "Europe", "countries": 0}, "oceania": {"name": "Oceania", "countries": 0},"polar": {"name": "Polar", "countries": 0}}
+each country in data
+    case country.region 
+        when "Africa"
+            - regions.africa.countries += 1
+        when "Americas"
+            - regions.americas.countries += 1
+        when "Asia"
+            - regions.asia.countries += 1
+        when "Europe"
+            - regions.europe.countries += 1
+        when "Oceania"
+            - regions.oceania.countries += 1
+        when "Polar"
+            - regions.polar.countries += 1
+
+html(lang='en')
+  body
+    table.table.table-striped
+        tr
+            th Region
+            th Countries
+        tr
+        each region in regions
+            tr  
+                td= region.name
+                td= region.countries

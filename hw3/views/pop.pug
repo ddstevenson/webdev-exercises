@@ -1,0 +1,16 @@
+doctype html
+
+html(lang='en')
+  body
+    table.table.table-striped
+        tr
+            th Name
+            th Population
+            th Capitals
+        tr
+        each country in data
+            tr
+                if country.population > 20000000  
+                    td= country.name
+                    td= country.population
+                    td= country.capital
