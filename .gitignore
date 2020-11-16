@@ -1,3 +1,5 @@
 node_modules/
 .vscode/
 hw3/node_modules/
+hw3/06-react/node_modules/
+hw3/07-vue/node_modules/
