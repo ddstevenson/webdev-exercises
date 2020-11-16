@@ -5,4 +5,4 @@
 - Problem 4: to set up the server, run `nodemon 04-sessions.js` and navigate to the appropriate page on localhost
 - Problem 5: to set up the server, run `nodemon 05-templates.js` and navigate to the appropriate page on localhost
 - Problem 6: to set up the server, run `npm start` from the hw3/06-react/my-app directory and a browser should automatically open: if it does not, follow the instructions on-screen.
-- Problem 7: to set up the server, run `npm start` from the hw3/06-react/my-app directory and a browser should automatically open: if it does not, follow the instructions on-screen.
+- Problem 7: This tutorial is best viewed on https://codesandbox.io/s/dark-star-3jebo?file=/src/App.vue; files are included for completeness.
